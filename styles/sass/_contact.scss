@@ -1,0 +1,139 @@
+.wrapper {
+    /* border: 3px solid greenyellow; */
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 auto;
+ }
+
+.contact-header{
+    background-image: url('../images/contact-image.jpg'); 
+    height: 70vh;
+}
+
+.contact-nav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        margin-top: 35px;
+        
+        li {
+            display: flex;
+            margin-right: 30px;
+
+            a {
+                text-decoration: none;
+                font-family: 'lato';
+                font-weight: 700;
+                color: black;
+
+                &:hover {
+                    border-bottom: 3px solid yellow;
+                }
+            }
+        }
+    }
+}
+
+.contact-logo {
+    /* border: 1px solid blue; */
+    font-family: 'kumar one';
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    width: 250px;
+    display: flex;
+    align-items: left;
+}
+
+h2 {
+    font-family: 'kumar one outline';
+    font-size: 68px;
+    line-height: 64px;
+}
+
+
+
+.contact-main {
+    background-color: #e0fddf;
+}
+
+.contact-main-containers {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 70%;
+    height: 500px;
+    position: relative;
+    bottom: 150px;
+    box-shadow:yellow 10px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact-form-name-email {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+    .contact-name, .contact-email {
+        width: 45%;
+        border-bottom: 1px solid #065635;
+        height: 50px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-top: 50px;
+    }
+}
+
+.contact-form-message-button {
+    display: flex;
+    flex-direction: column;
+
+    .contact-message-box {
+        height: 200px;
+        border: 1px solid #065635;
+        margin-top: 50px;
+    }
+
+    button {
+        margin-top: 50px;
+        padding: 10px;
+        color: white;
+        border: none;
+        background-color: #065635;
+        font-family: 'kumar one';
+    }
+}
+/* END CONTACT FORM */
+
+
+/* CONTACT INFO */
+.contact-sec {
+    /* border: 1px solid red; */ 
+    height: 400px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        color: #065635;
+    }
+}
+
+.contact-info {
+    color: black;
+    font-family: 'lato';
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+/* END CONTACT INFO */

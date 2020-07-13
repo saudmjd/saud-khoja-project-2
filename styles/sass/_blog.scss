@@ -1,0 +1,284 @@
+.wrapper {
+    /* border: 3px solid greenyellow; */
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 auto;
+ }
+
+
+/* BLOG HEADER */ 
+.blog-header {
+    background-image: url('../images/blog-image.jpg');
+    height: 65vh;
+} 
+
+.blog-nav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        margin-top: 35px;
+        
+        li {
+            display: flex;
+            margin-right: 30px;
+
+            a {
+                text-decoration: none;
+                font-family: 'lato';
+                font-weight: 700;
+                color: black;
+
+                &:hover {
+                    border-bottom: 3px solid yellow;
+                }
+            }
+        }
+    }
+}
+
+.blog-logo {
+    /* border: 1px solid blue; */
+    font-family: 'kumar one';
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    width: 250px;
+    display: flex;
+    align-items: left;
+}
+
+h2 {
+    font-family: 'kumar one outline';
+    font-size: 68px;
+    line-height: 64px;
+}
+/* END BLOG HEADER */
+
+.blog-main {
+    background-color: #e0fddf;
+}
+
+
+/* FLEX MAIN */
+.flex-main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.blog-aside {
+    /* border: 1px solid royalblue; */
+    width: 20%;
+    background-color: yellow;
+    height: fit-content;
+    box-shadow: -15px 0 yellow;
+    position: relative;
+    top: 75px;
+
+    img{
+        max-width: 100%;
+    }
+
+    .our-mission {
+        font-family: 'kumar one';
+        margin-top: 25px;
+    }
+
+    .mission-p {
+        font-family: 'lato';
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 2px;
+        width: 95%;
+        margin-top: 0;
+    }
+
+    .recent-posts {
+        font-family: 'kumar one';
+        margin-top: 25px;
+    }
+
+    .sidebar-bulletpoints{
+        font-family: 'lato';
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 2px;
+        width: 95%;
+        padding-left: 25px;
+        margin-top: 0;
+    }
+
+}
+
+.blog-article {
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 70%;
+    border-bottom: 15px solid yellow;
+    border-right: 15px solid yellow;
+    position: relative;
+    bottom: 35px;
+
+    img {
+        width: 100%;
+        box-shadow: 15px 15px yellow;
+    }
+
+    .new-space-title {
+        font-family: 'kumar one';
+        font-size: 33px;
+        line-height: 58px;
+        letter-spacing: 2.1px;
+        padding-left: 150px;
+        width: 100%;
+    }
+
+    .new-space-date{
+        font-family: 'lato';
+        padding-left: 150px;
+        padding-right: 50px;
+        margin: 0;
+    }
+
+    .new-space-essay {
+        font-family: 'lato';
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 32px;
+        padding-left: 150px;
+        padding-right: 50px;
+    }
+}
+/* END FLEX MAIN */
+
+
+/* COMMS SEC*/ 
+.comments-sec {
+    /* border: 1px solid red; */
+    width: 70%;
+    padding-left: 100px;
+
+    .comments {
+        font-family: 'kumar one';
+        font-size: 33px;
+        line-height: 58px;
+        letter-spacing: 2.1px;
+        padding-right: 50px;
+    }
+}
+
+.comment-img-txt-container1 {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    img {
+        width: 15%;
+    }
+
+    .comment-container1 {
+        /* border: 1px solid blue; */
+        width: 80%;
+    }
+
+    .comment-container1-date {
+        font-family: 'lato';
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+    .comment-container1-p {
+        font-family: 'lato';
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 2px;
+        margin-top: 0;
+    }
+}
+
+.comment-img-txt-container2 {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+
+    img {
+        width: 15%;
+    }
+
+    .comment-container2 {
+        /* border: 1px solid blue; */
+        width: 80%;
+    }
+
+    .comment-container2-date {
+        font-family: 'lato';
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+
+    .comment-container2-p {
+        font-family: 'lato';
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 2px;
+        margin-top: 0;
+    }
+}
+/* END COMMS SEC */
+
+
+/* FORM */ 
+.blog-form {
+    /* border: 1px solid blue; */
+    width: 70%;
+    padding-left: 100px;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.blog-form-name-email {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+    .name, .email {
+        width: 45%;
+        border-bottom: 1px solid #065635;
+        height: 50px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #e0fddf;
+        margin-top: 0px;
+    }
+}
+
+.blog-form-comment-button {
+    display: flex;
+    flex-direction: column;
+
+    .comment-box {
+        height: 200px;
+        border: 1px solid #065635;
+        background-color: #e0fddf;
+        margin-top: 50px;
+    }
+
+    button {
+        margin-top: 50px;
+        padding: 10px;
+        color: white;
+        border: none;
+        background-color: #065635;
+        font-family: 'kumar one';
+    }
+}
+/* END BLOG FORM */
