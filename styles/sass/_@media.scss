@@ -45,15 +45,18 @@
         }
 
         .article1 {
-            padding-right: 100px;
+            padding-right: 300px;
             padding-bottom: 100px;
         }
 
         .article2 {
-            padding-left: 100px;
+            padding-left: 300px;
             flex-direction: column-reverse;
             padding-bottom: 100px;
 
+            img {
+                top: 0em;
+            }
         }
 
     }
