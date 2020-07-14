@@ -1,4 +1,4 @@
-/* 1800px */ 
+/* 1800px STYLES */ 
 @media (max-width: 1800px) {
     .index-header {
         height: 0 auto;
@@ -8,15 +8,17 @@
         height: 57.5vh;
     }
 }
+/* END 1800px STYLES */ 
 
-/* END 1800px */ 
 
-/* 1500px */
+
+
+
+/* 1500px STYLES */
 @media (max-width: 1500px) {
     .wrapper {
         width: 90%;
     }
-
 
     .index-header {
         height: 75vh;
@@ -26,12 +28,20 @@
         height: 50vh;
     }
 
+    .contact-form {
+        bottom: 300px;
+    }
 }
-/* END 1500px */
+/* END 1500px STYLES */
 
 
-/* 1300px */ 
+
+
+
+/* 1300px STYLES */ 
 @media (max-width: 1300px) {
+
+    /* INDEX PAGE STYLES – 1300px */ 
     .index-header {
         height: 65vh;
     }
@@ -58,23 +68,23 @@
                 top: 0em;
             }
         }
-
     }
 
+    /* CONTACT PAGE STYLES – 1300px */ 
     .contact-header {
         height: 50vh;
     }
 
-    /* BLOG PAGE */
-
+    /* BLOG PAGE STYLES – 1300px */
     .blog-header {
         height: 30vh;
     }
+
     .flex-main {
         display: flex;
         flex-direction: column;
     }
-
+    
     .blog-aside{
         width: 100%;
         display: flex;
@@ -95,7 +105,13 @@
             display: none;
         }
     }
+    
+    .blog-form{
+        width: 100%;
+        padding: 30px;
+    }
 
+    /* BLOG PAGE STYLES – 1300px */ 
     .blog-article {
         bottom: 0;
         top: 200px;
@@ -120,22 +136,25 @@
         padding: 30px;
     }
 
-    .blog-form{
-        width: 100%;
-        padding: 30px;
+    .contact-form {
+        bottom: 150px;
     }
-    /* END BLOG PAGE */
 }
-/* END 1300px */
+/* END 1300px STYLES */
 
 
-/* 1000px */
+
+
+
+
+/* 1000px STYLES */
 @media (max-width: 1000px) {
+
+    /* INDEX PAGE STYLES – 1000px */ 
     .index-header h1 {
         font-size: 50px;
         margin-left: 20px;
     }
-
 
     .index-sec1 {
         flex-direction: column-reverse;
@@ -155,8 +174,6 @@
         }
     }
 
-
-
     .flex-gallery {
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -167,7 +184,6 @@
         }
     }
 
-
     .index-sec3 {
         flex-direction: column;
         align-items: center;
@@ -177,7 +193,6 @@
             width: 90%;
         }
     }
-
 
     .article1 {
         padding-right: 60px;
@@ -194,6 +209,7 @@
         }
     }
 
+    /* COMMENTS PAGE STYLES – 1000px */ 
     .comments-sec {
         width: 100%;
         padding: 30px;
@@ -201,21 +217,18 @@
         img {
             width: 75px;
             height: 75px;
-            
         }
     }
-
-    .contact-header h2 {
-        /* border: 1px solid red; */ 
-        width: 40%;
-        font-size: 40px;
-    }
 }
-/* END 1000px */
+/* END 1000px STYLES */
 
 
-/* 770px */
+
+
+
+/* 770px STYLES */
 @media (max-width: 770px) {
+    /* INDEX PAGE STYLES – 770px */ 
     .index-header {
         height: 80vh;
 
@@ -240,7 +253,6 @@
         }
     }
  
-
     .flex-gallery {
         flex-direction: column;
         align-items: center;
@@ -250,7 +262,6 @@
         }
     }
     
-
     .article1 {
         padding-right: 20px;
         padding-bottom: 60px;
@@ -276,7 +287,6 @@
         }
     }
 
-
     .article2 {
         padding-left: 20px;
         padding-bottom: 60px;
@@ -294,11 +304,11 @@
         }
     }
 
-
     .index-gallery-sec2 {
         padding: 30px;
     }
 
+    /* BLOG PAGE STYLES – 770px */ 
     .blog-nav {
         ul {
             flex-direction: column;
@@ -306,6 +316,7 @@
         }
     }
 
+    /* CONTACT PAGE STYLES – 770PX */ 
     .contact-nav {
         ul {
             flex-direction: column;
@@ -318,7 +329,6 @@
         align-items: center;
     }
 
-
     .contact-form {
         width: 90%;
     }
@@ -326,8 +336,9 @@
 /* END 770px */ 
 
 
-/* 550px */ 
+/* 550px STYLES*/ 
 @media (max-width: 550px) {
+    /* INDEX PAGE STYLES – 550px */ 
     .index-header {
         height: 65vh;
     }
@@ -354,6 +365,7 @@
         }
     }
 
+    /* BLOG PAGE STYLES – 550px */ 
     .blog-aside {
         flex-direction: column;
 
@@ -362,6 +374,7 @@
         }
     }
 
+    /* CONTACT PAGE STYLES – 550PX */ 
     .contact-header h2 {
         /* border: 1px solid red; */ 
         width: 70%;
@@ -393,4 +406,4 @@
         }
     }
 }
-/* END 550px */ 
+/* END 550px STYLES */ 
